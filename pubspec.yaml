@@ -33,7 +33,46 @@ flutter:
   - assets/fortsantiago.png
   - assets/mayonvolcano.png
   - assets/boracay.png
+  - assets/boracayanswercorrect.png
+  - assets/boracayanswerwrong.png
+  - assets/boracayfacts.png
   - assets/chocolatehills.png
+  - assets/chocolatehillsanswercorrect.png
+  - assets/chocolatehillsanswerwrong.png
+  - assets/chocolatehillsfacts.png
   - assets/kawasanfalls.png
+  - assets/kawasanfallsanswercorrect.png
+  - assets/kawasanfallsanswerwrong.png
+  - assets/kawasanfallsfacts.png
   - assets/magellanscross.png
+  - assets/magellanscrossanswercorrect.png
+  - assets/magellanscrossanswerwrong.png
+  - assets/magellanscrossfacts.png
   - assets/sambawanisland.png
+  - assets/sambawanislandanswercorrect.png
+  - assets/sambawanislandanswerwrong.png
+  - assets/sambawanislandfacts.png
+  - assets/luzonscore.png
+  - assets/visayasscore.png
+  - assets/mariacristinafalls.png
+  - assets/mountapo.png
+  - assets/pinkmosque.png
+  - assets/siargaoisland.png
+  - assets/tinuyanfalls.png
+  - assets/mindanaoscore.png
+  - assets/rizalparkanswercorrect.png
+  - assets/rizalparkanswerwrong.png
+  - assets/rizalparkfacts.png
+  - assets/skyranchtagaytayanswercorrect.png
+  - assets/skyranchtagaytayanswerwrong.png
+  - assets/skyranchtagaytayfacts.png
+  - assets/moaanswercorrect.png
+  - assets/moaanswerwrong.png
+  - assets/moafacts.png
+  - assets/fortsantiagoanswercorrect.png
+  - assets/fortsantiagoanswerwrong.png
+  - assets/fortsantiagofacts.png
+  - assets/mayonvolcanoanswercorrect.png
+  - assets/mayonvolcanoanswerwrong.png
+  - assets/mayonvolcanofacts.png
+  

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ResultsPage2 extends StatelessWidget {
+  
   final int userScore;
 
   ResultsPage2({required this.userScore});
@@ -8,21 +9,25 @@ class ResultsPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Results Page',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+      body: Stack(
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/visayasscore.png'),
+                fit: BoxFit.cover,
+              ),
             ),
-            SizedBox(height: 20),
-            Text(
-              'Your Score: $userScore',
-              style: TextStyle(fontSize: 18),
+          ),
+          Positioned(
+            top: 422, // Adjust the top position as needed
+            left: 235, // Adjust the left position as needed
+            child: Text(
+              '$userScore',
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

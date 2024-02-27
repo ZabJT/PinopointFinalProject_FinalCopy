@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class ResultsPage extends StatelessWidget {
+class ResultsPage3 extends StatelessWidget {
   
   final int userScore;
 
-  ResultsPage({required this.userScore});
+  ResultsPage3({required this.userScore});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class ResultsPage extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/luzonscore.png'),
+                image: AssetImage('assets/mindanaoscore.png'),
                 fit: BoxFit.cover,
               ),
             ),

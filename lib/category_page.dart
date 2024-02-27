@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'luzon_contentpage.dart';
 import 'visayas_contentpage.dart';
+import 'mindanao_contentpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -124,6 +125,14 @@ class _CategoryPageState extends State<CategoryPage> {
                     visayasImageSize = 100.0;
                     mindanaoImageSize = 150.0;
                   });
+                   // Wait for the Mindanao image to enlarge before redirecting
+                  Future.delayed(Duration(milliseconds: 300), () {
+                    // Redirect to the ThirdRedirectPage for additional animation
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ThirdRedirectPage(MindanaoContentPage1())),
+                    );
+                  });
                 },
                 child: AnimatedContainer(
                   duration: Duration(milliseconds: 300),
@@ -217,3 +226,42 @@ class _SecondRedirectPageState extends State<SecondRedirectPage> {
     });
   }
 }
+
+class ThirdRedirectPage extends StatefulWidget {
+  final Widget nextPage;
+
+  ThirdRedirectPage(this.nextPage);
+
+  @override
+  _ThirdRedirectPageState createState() => _ThirdRedirectPageState();
+}
+
+class _ThirdRedirectPageState extends State<ThirdRedirectPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/mindanaootwbg.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+
+    // Wait for a certain duration before navigating to the next page
+    Future.delayed(Duration(seconds: 2), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => widget.nextPage),
+      );
+    });
+  }
+}
+
