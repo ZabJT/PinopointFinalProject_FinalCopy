@@ -207,12 +207,16 @@ class LuzonContentPage1Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => LuzonContentPage2()),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -420,12 +424,16 @@ class LuzonContentPage2Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => LuzonContentPage3()),
                 );
               },
-              child: Text("Proceed"),
+               child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -633,12 +641,16 @@ class LuzonContentPage3Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => LuzonContentPage4()),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -846,12 +858,16 @@ class LuzonContentPage4Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => LuzonContentPage5()),
                 );
               },
-              child: Text("Proceed"),
+               child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -1059,12 +1075,16 @@ class LuzonContentPage5Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => ResultsPage(userScore: QuizScore.userScore)),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );

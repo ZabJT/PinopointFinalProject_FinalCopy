@@ -207,12 +207,16 @@ class VisayasContentPage1Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => VisayasContentPage2()),
                 );
               },
-              child: Text("Proceed"),
+            child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 177, 80, 201)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -421,12 +425,16 @@ class VisayasContentPage2Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => VisayasContentPage3()),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 177, 80, 201)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -635,12 +643,16 @@ class VisayasContentPage3Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => VisayasContentPage4()),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 177, 80, 201)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -668,7 +680,7 @@ class VisayasContentPage4 extends StatelessWidget {
             alignment: Alignment.center,
             child: TextField(
               onSubmitted: (String answer) {
-                validateAnswer(answer, 'Magellans Cross', context);
+                validateAnswer(answer, 'Magellan\'s Cross', context);
               },
               decoration: InputDecoration(
                 hintText: 'Enter text here',
@@ -849,12 +861,16 @@ class VisayasContentPage4Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => VisayasContentPage5()),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 177, 80, 201)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );
@@ -1063,12 +1079,16 @@ class VisayasContentPage5Facts extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => ResultsPage2(userScore: QuizScoreV1.userScore)),
                 );
               },
-              child: Text("Proceed"),
+              child: Text("PROCEED",
+              style: TextStyle(color:Colors.white ,fontSize: 15)),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 242, 141, 59)),
-              ),
-            ),
-          ),
+              backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 177, 80, 201)),
+                fixedSize: MaterialStateProperty.all<Size>(
+        Size(10.0, 10.0), // Adjust width and height as needed
+      ),
+    ),
+  ),
+),
         ],
       ),
     );

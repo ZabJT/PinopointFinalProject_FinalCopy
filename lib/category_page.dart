@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'luzon_contentpage.dart';
 import 'visayas_contentpage.dart';
